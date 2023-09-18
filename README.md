@@ -10,7 +10,7 @@ Under developing ...
 
 ## Usage
 
-```bash
+```text
 main.py [-h] -l LIST [-p PARAMETERS] [-c CHUNK] -v VALUE -gs {normal,ignore,combine,all} -vs {replace,suffix} [-o OUTPUT] [-d]
 
 x9
@@ -40,6 +40,6 @@ options:
 ```
 
 ## Example  
-```bash
+```text
 python main.py -l urls.txt -c 40 -v '<b/injected,"injected"' -gs combine -vs suffix
 ```
