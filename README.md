@@ -10,6 +10,7 @@ Under developing ...
 
 ## Usage
 
+```bash
 main.py [-h] -l LIST [-p PARAMETERS] [-c CHUNK] -v VALUE -gs {normal,ignore,combine,all} -vs {replace,suffix} [-o OUTPUT] [-d]
 
 x9
@@ -36,6 +37,7 @@ options:
   -o OUTPUT, --output OUTPUT
                         Output results
   -d, --debug           Debug mode
+```
 
 ## Example  
 ```bash
